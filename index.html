@@ -1,9 +1,18 @@
 <html>
 <head>
+<script>
+setInterval(function () {
+    document.getElementById('blog').contentWindow.location.reload();
+    
+    
+}, 3000);
+    
+    
+</script>
 </head>
 <body>
 
-<iframe src='http://www.localoutcast.tumblr.com/random'  style="border: 0; width: 100%; height: 100%">Your browser doesn't support iFrames.</iframe>
+<iframe id='blog' src='http://www.localoutcast.tumblr.com/random'  style="border: 0; width: 100%; height: 100%">Your browser doesn't support iFrames.</iframe>
 
 </body>
 </html>
